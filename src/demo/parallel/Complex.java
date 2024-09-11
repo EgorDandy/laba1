@@ -71,6 +71,12 @@ public class Complex {
         return this;
     }
 
+    public Complex Multiplicat(double val) {
+        re *= val;
+        im *= val;
+        return this;
+    }
+
     /**
      * Multiply operation.
      * @param  b multiplier
